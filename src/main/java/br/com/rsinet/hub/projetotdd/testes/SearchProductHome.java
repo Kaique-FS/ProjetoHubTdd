@@ -3,7 +3,6 @@ package br.com.rsinet.hub.projetotdd.testes;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.math3.stat.descriptive.summary.Product;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.Keys;
@@ -13,11 +12,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import br.com.rsinet.hub.projetotdd.actions.Product;
+import br.com.rsinet.hub.projetotdd.actions.Search;
 import br.com.rsinet.hub.projetotdd.pageobjects.HomePage;
 import br.com.rsinet.hub.projetotdd.pageobjects.LogInPage;
 import br.com.rsinet.hub.projetotdd.utility.Constant;
 import br.com.rsinet.hub.projetotdd.utility.Driver;
 import br.com.rsinet.hub.projetotdd.utility.ScreenShot;
+
 
 public class SearchProductHome {
 
