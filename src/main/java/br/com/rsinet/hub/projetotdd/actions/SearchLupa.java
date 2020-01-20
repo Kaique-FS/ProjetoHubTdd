@@ -8,7 +8,8 @@ public class SearchLupa {
 
 	private static WebElement element = null;
 
-	public static WebElement btn_lupa(WebDriver driver) {
+	public static WebElement btn_lupa(WebDriver driver) throws InterruptedException {
+		Thread.sleep(2000);
 		element = driver.findElement(By.id("menuSearch"));
 		System.out.println("Clicou na lupa");
 		return element;
