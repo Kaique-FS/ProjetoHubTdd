@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class HomePage {
-
+	public static String cmpArmazenado;
 	private static WebElement element = null;
 
 	public static WebElement lnk_MyAccount(WebDriver driver) {
@@ -19,14 +19,22 @@ public class HomePage {
 
 	public static WebElement lnk_LogOut(WebDriver driver) {
 		element = driver.findElement(By.id("menuUserLink"));
-		//element = driver.findElement(By.xpath("//*[@id=\'loginMiniTitle\']/label[3]"));
+		// element =
+		// driver.findElement(By.xpath("//*[@id=\'loginMiniTitle\']/label[3]"));
 		System.out.println("Clicou no Boneco");
 		return element;
 	}
-	
+
 	public static WebElement lnk_SingOut(WebDriver driver) {
 		element = driver.findElement(By.xpath("//*[@id=\'loginMiniTitle\']/label[3]"));
 		System.out.println("Saiu");
+		return element;
+	}
+
+	public static WebElement txt_username(WebDriver driver) {
+		//element = driver.findElement(By.id("menuUserLink"));
+		element = driver.findElement(By.xpath(".//*[@class='hi-user containMiniTitle ng-binding']"));
+		System.out.println("Nome do Usuario");
 		return element;
 	}
 }

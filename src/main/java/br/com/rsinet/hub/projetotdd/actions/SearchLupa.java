@@ -8,9 +8,8 @@ public class SearchLupa {
 
 	private static WebElement element = null;
 
-	public static WebElement btn_lupa(WebDriver driver) throws InterruptedException {
+	public static WebElement btn_lupa(WebDriver driver) {
 		//Não foi encontrado outro wait para utilização (validando outros metodos)
-		Thread.sleep(2000);
 		element = driver.findElement(By.id("menuSearch"));
 		System.out.println("Clicou na lupa");
 		return element;
@@ -19,6 +18,12 @@ public class SearchLupa {
 	public static WebElement txt_pesquisa(WebDriver driver) {
 		element = driver.findElement(By.id("autoComplete"));
 		System.out.println("Clicou na pesquisa");
+		return element;
+	}
+	
+	public static WebElement btn_closepopup(WebDriver driver) {
+		element = driver.findElement(By.xpath("//*[@id=\'search\']/div/div"));
+		System.out.println("Fechou pop-up");
 		return element;
 	}
 }

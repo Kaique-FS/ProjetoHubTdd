@@ -1,10 +1,15 @@
 package br.com.rsinet.hub.projetotdd.testes;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -13,10 +18,14 @@ import br.com.rsinet.hub.projetotdd.actions.SearchLupa;
 import br.com.rsinet.hub.projetotdd.pageobjects.HomePage;
 import br.com.rsinet.hub.projetotdd.pageobjects.LogInPage;
 import br.com.rsinet.hub.projetotdd.utility.Constant;
+import br.com.rsinet.hub.projetotdd.utility.Driver;
+import br.com.rsinet.hub.projetotdd.utility.ScreenShot;
 
 public class SearchProductLupa {
 
 private static WebDriver driver;
+private static Logger Log = Logger.getLogger("Acao");
+
 	
 	@BeforeMethod
 	public void inicializa() {
@@ -28,15 +37,30 @@ private static WebDriver driver;
 	}
 	
 	@Test
-	public void Execute() throws InterruptedException {
-		HomePage.lnk_MyAccount(driver).click();
-		LogInPage.txtbx_UserName(driver).sendKeys(Constant.Username);
-		LogInPage.txtbx_Password(driver).sendKeys(Constant.Password);
-		LogInPage.btn_LogIn(driver).sendKeys(Keys.ENTER);
-		//Lupa
+	public void Execute() throws Exception {
+		DOMConfigurator.configure("log4j.xml");
+
 		SearchLupa.btn_lupa(driver).click();
+		ScreenShot.ScreenShotCapture(driver);
+		Log.info("Clica na lupa + print");
+		
 		SearchLupa.txt_pesquisa(driver).sendKeys(Constant.Product + Keys.ENTER);
+		SearchLupa.btn_closepopup(driver).click();
+		ScreenShot.ScreenShotCapture(driver);
+		Log.info("Escreve o produto + enter + print");
+		
 		Product.btn_mouse(driver).click();
 		Product.btn_addcart(driver).click();
+		ScreenShot.ScreenShotCapture(driver);
+		Log.info("escolhe o produto indicado + adiciona ao carrinho + print");
+		
+		//Assert.assertEquals("HP Z3200 Wireless Mouse", Product.btn_mouse(driver));
+	}
+	
+	@AfterMethod
+	public void Finaliza() throws IOException {
+		ScreenShot.ScreenShotCapture(driver);
+		Driver.closeBrowser(driver);
+		Log.info("Tirou print e fechou navegador");
 	}
 }

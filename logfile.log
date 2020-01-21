@@ -148,3 +148,67 @@
 2020-01-20 15:50:07,554 INFO  [Acao] Clica na lupa + print 
 2020-01-20 15:50:09,151 INFO  [Acao] Escreve o produto + enter + print 
 2020-01-20 15:50:10,248 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 13:14:49,054 INFO  [Acao] Clicou no botão de login 
+2020-01-21 13:14:49,135 INFO  [Acao] Inseriu usuario valido 
+2020-01-21 13:14:49,686 INFO  [Acao] Inseriu senha valida 
+2020-01-21 13:14:49,752 INFO  [Acao] Realizou Login 
+2020-01-21 13:14:51,579 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-01-21 13:14:52,035 INFO  [Acao] escolheu produto + print  
+2020-01-21 13:14:52,465 INFO  [Acao] cor + print 
+2020-01-21 13:14:52,879 INFO  [Acao] adicionou ao carrinho + print 
+2020-01-21 13:14:53,296 INFO  [Acao] Clica na lupa + print 
+2020-01-21 13:14:53,986 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 13:14:54,483 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 13:14:54,914 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 13:15:21,125 INFO  [Acao] Clicou no botão de login 
+2020-01-21 13:15:21,198 INFO  [Acao] Inseriu usuario valido 
+2020-01-21 13:15:21,745 INFO  [Acao] Inseriu senha valida 
+2020-01-21 13:15:21,813 INFO  [Acao] Realizou Login 
+2020-01-21 13:15:23,640 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-01-21 13:15:24,104 INFO  [Acao] escolheu produto + print  
+2020-01-21 13:15:24,561 INFO  [Acao] cor + print 
+2020-01-21 13:15:24,972 INFO  [Acao] adicionou ao carrinho + print 
+2020-01-21 13:15:25,416 INFO  [Acao] Clica na lupa + print 
+2020-01-21 13:15:26,131 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 13:15:26,713 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 13:15:27,188 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 13:32:14,883 INFO  [Acao] Clicou no botão de login 
+2020-01-21 13:32:15,265 INFO  [Acao] Inseriu usuario valido 
+2020-01-21 13:32:15,629 INFO  [Acao] Inseriu senha valida 
+2020-01-21 13:32:15,856 INFO  [Acao] Realizou Login 
+2020-01-21 13:32:18,672 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-01-21 13:32:19,743 INFO  [Acao] escolheu produto + print  
+2020-01-21 13:32:20,518 INFO  [Acao] cor + print 
+2020-01-21 13:32:21,257 INFO  [Acao] adicionou ao carrinho + print 
+2020-01-21 13:32:22,072 INFO  [Acao] Clica na lupa + print 
+2020-01-21 13:32:23,639 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 13:32:24,848 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 13:32:25,584 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 14:09:36,934 INFO  [Acao] Clicou no botão de login 
+2020-01-21 14:09:37,018 INFO  [Acao] Inseriu usuario valido 
+2020-01-21 14:09:37,561 INFO  [Acao] Inseriu senha valida 
+2020-01-21 14:09:37,628 INFO  [Acao] Realizou Login 
+2020-01-21 14:09:39,478 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-01-21 14:09:39,924 INFO  [Acao] escolheu produto + print  
+2020-01-21 14:09:40,383 INFO  [Acao] cor + print 
+2020-01-21 14:09:40,806 INFO  [Acao] adicionou ao carrinho + print 
+2020-01-21 14:09:41,242 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:09:41,951 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:09:45,430 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 14:09:45,929 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 14:19:29,690 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:19:30,916 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:19:34,640 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 14:20:18,212 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:20:19,492 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:20:23,138 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 14:21:04,191 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:21:05,419 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:21:09,087 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 14:22:09,258 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:22:10,487 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:22:14,135 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 14:23:12,032 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:23:13,279 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:23:16,949 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-01-21 14:23:17,399 INFO  [Acao] Tirou print e fechou navegador 

@@ -7,8 +7,10 @@ public class Constant {
 	public static final String Username = "Tritao";
 
 	public static final String Password = "Tridente1";
+	
+	public static final String Product = "HP Z3200 Wireless Mouse";  
 
-	public static final String Product = "HP Z3200 WIRELESS MOUSE";  
+	//public static final String Product = "mouse";  
 	
 	public static final String ProductInvalid = "Biscoito"; 
 

@@ -14,7 +14,8 @@ public class Product {
 		return element;
 	}
 	
-	public static WebElement btn_mouse(WebDriver driver) {
+	public static WebElement btn_mouse(WebDriver driver) throws InterruptedException {
+		Thread.sleep(3000);
 		element = driver.findElement(By.linkText("HP Z3200 Wireless Mouse"));
 		System.out.println("Clicou no produto");
 		return element;
