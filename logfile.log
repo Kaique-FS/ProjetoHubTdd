@@ -224,3 +224,12 @@
 2020-01-21 14:55:24,466 INFO  [Acao] Clica na lupa + print 
 2020-01-21 14:55:26,201 INFO  [Acao] Escreve o produto + enter + print 
 2020-01-21 14:55:26,690 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 15:57:42,044 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-01-21 15:57:42,511 INFO  [Acao] escolheu produto + print  
+2020-01-21 15:57:42,938 INFO  [Acao] cor + print 
+2020-01-21 15:57:43,398 INFO  [Acao] adicionou ao carrinho + print 
+2020-01-21 15:58:22,126 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 15:58:52,286 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 15:59:54,655 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 16:04:56,425 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 16:05:21,019 INFO  [Acao] Tirou print e fechou navegador 

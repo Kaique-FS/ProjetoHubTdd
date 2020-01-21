@@ -8,7 +8,6 @@ public class Driver {
 	public static WebDriver driver;
 	
 	public static WebDriver openBrowser(String navegador, String url) {
-		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(url);

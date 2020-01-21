@@ -37,4 +37,17 @@ public class HomePage {
 		System.out.println("Nome do Usuario");
 		return element;
 	}
+	
+	public static WebElement btn_explorenow(WebDriver driver) {
+		element = driver.findElement(By.name("explore_now_btn"));
+		System.out.println("Nome do Usuario");
+		return element;
+	}
+	
+	public static WebElement btn_circle(WebDriver driver) {
+		element = driver.findElement(By.xpath("//*[@id=\'slider_explore_now\']/div/div[2]/span[2]"));
+		System.out.println("Nome do Usuario");
+		return element;
+	}
+	
 }
