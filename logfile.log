@@ -212,3 +212,15 @@
 2020-01-21 14:23:13,279 INFO  [Acao] Escreve o produto + enter + print 
 2020-01-21 14:23:16,949 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
 2020-01-21 14:23:17,399 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 14:47:47,677 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:47:49,496 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:47:49,990 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 14:48:48,914 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:48:50,845 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:48:51,360 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 14:51:22,303 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:51:23,026 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:51:23,619 INFO  [Acao] Tirou print e fechou navegador 
+2020-01-21 14:55:24,466 INFO  [Acao] Clica na lupa + print 
+2020-01-21 14:55:26,201 INFO  [Acao] Escreve o produto + enter + print 
+2020-01-21 14:55:26,690 INFO  [Acao] Tirou print e fechou navegador 
