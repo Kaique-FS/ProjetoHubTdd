@@ -16,11 +16,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import br.com.rsinet.hub.projetotdd.pageobjects.HomePage;
+import br.com.rsinet.hub.projetotdd.pageobjects.RegisterPage;
 import br.com.rsinet.hub.projetotdd.utility.Constant;
 import br.com.rsinet.hub.projetotdd.utility.Driver;
 import br.com.rsinet.hub.projetotdd.utility.ScreenShot;
 
-public class Register {
+public class NotRegister {
 
 	public static WebDriver driver;
 
@@ -55,7 +56,7 @@ public class Register {
 		//Register
 		driver.findElement(By.id("register_btnundefined")).sendKeys(Keys.ENTER);
 		
-		Assert.assertEquals("kaiquefs", HomePage.txt_username(driver).getText());
+		Assert.assertNotEquals(Constant.URL, driver.getCurrentUrl());
 	
 	}
 	

@@ -102,4 +102,11 @@ public class RegisterPage {
 		System.out.println("Registrou");
 		return element;
 	}
+	
+	public static WebElement txt_notregister(WebDriver driver) {
+		element = driver.findElement(By.id("register_btnundefined"));
+		System.out.println("Registrou");
+		return element;
+	}
+	
 }
