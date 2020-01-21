@@ -1,10 +1,11 @@
 package br.com.rsinet.hub.projetotdd.actions;
 
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import br.com.rsinet.hub.projetotdd.pageobjects.HomePage;
 import br.com.rsinet.hub.projetotdd.pageobjects.LogInPage;
@@ -14,7 +15,7 @@ public class LogIn {
 
 private static WebDriver driver;
 	
-	@Before
+	@BeforeMethod
 	public void inicializa() {
 		driver = new ChromeDriver();
 		driver.get(Constant.URL);

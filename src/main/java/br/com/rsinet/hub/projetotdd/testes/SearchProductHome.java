@@ -45,7 +45,6 @@ public class SearchProductHome {
 		//home
 		Search.btn_Tablet(driver).click();
 		ScreenShot.ScreenShotCapture(driver);
-		ScreenShot.ScreenShotCapture(driver);
 		Log.info("Clicou em 'Tablets' + print");
 
 		Product.btn_tablet3(driver).click();
@@ -90,6 +89,8 @@ public class SearchProductHome {
 	@AfterMethod
 	public void Finaliza() throws IOException {
 		ScreenShot.ScreenShotCapture(driver);
+		//HomePage.lnk_LogOut(driver).click();
+		//HomePage.lnk_SingOut(driver).click();
 		Driver.closeBrowser(driver);
 		Log.info("Tirou print e fechou navegador");
 	}

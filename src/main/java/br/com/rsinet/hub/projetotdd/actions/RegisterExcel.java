@@ -80,6 +80,6 @@ private static WebDriver driver;
 	@AfterMethod
 	public void Finaliza() throws IOException {
 		ScreenShot.ScreenShotCapture(driver);
-		Driver.closeBrowser(driver);
+		//Driver.closeBrowser(driver);
 	}
 }

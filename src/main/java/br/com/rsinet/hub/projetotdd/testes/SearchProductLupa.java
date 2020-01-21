@@ -2,11 +2,11 @@ package br.com.rsinet.hub.projetotdd.testes;
 
 import java.util.concurrent.TimeUnit;
 
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import br.com.rsinet.hub.projetotdd.actions.Product;
 import br.com.rsinet.hub.projetotdd.actions.SearchLupa;
@@ -18,7 +18,7 @@ public class SearchProductLupa {
 
 private static WebDriver driver;
 	
-	@Before
+	@BeforeMethod
 	public void inicializa() {
 		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\kaique.silva\\chromedriver.exe");
 		driver = new ChromeDriver();

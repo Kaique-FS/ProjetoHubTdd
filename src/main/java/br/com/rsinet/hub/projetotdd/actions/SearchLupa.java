@@ -9,6 +9,7 @@ public class SearchLupa {
 	private static WebElement element = null;
 
 	public static WebElement btn_lupa(WebDriver driver) throws InterruptedException {
+		//Não foi encontrado outro wait para utilização (validando outros metodos)
 		Thread.sleep(2000);
 		element = driver.findElement(By.id("menuSearch"));
 		System.out.println("Clicou na lupa");

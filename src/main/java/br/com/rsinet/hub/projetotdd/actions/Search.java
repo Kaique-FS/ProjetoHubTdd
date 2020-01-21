@@ -42,8 +42,8 @@ public class Search {
 		return element;
 	}
 	
-	public static WebElement btn_LupaSearch(WebDriver driver) throws InterruptedException { //throws InterruptedException 
-		Thread.sleep(5000);
+	public static WebElement btn_LupaSearch(WebDriver driver) { //throws InterruptedException 
+		//Thread.sleep(5000);
 		//element = driver.findElement(By.xpath(".//*[@data-ng-click='openSearchProducts()']"));
 		element = driver.findElement(By.id("menuSearch"));
 		System.out.println("Clicou na 'Lupa'");

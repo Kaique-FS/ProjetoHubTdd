@@ -12,6 +12,6 @@ public class ScreenShot extends Driver{
 
 	public static void ScreenShotCapture(WebDriver driver) throws IOException{
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(src, new File("C:\\Users\\kaique.silva\\eclipse-workspace\\projetotddteste\\screenshot\\" + System.currentTimeMillis() + ".png"));
+			FileUtils.copyFile(src, new File("C:\\Users\\kaique.silva\\eclipse-workspace\\projetotdd\\screenshot\\" + System.currentTimeMillis() + ".png"));
 	}	
 }
