@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12400" started-at="2020-01-21T16:05:08 BRT" finished-at="2020-01-21T16:05:21 BRT">
+  <suite name="Default suite" duration-ms="25236" started-at="2020-01-21T16:10:00 BRT" finished-at="2020-01-21T16:10:26 BRT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12400" started-at="2020-01-21T16:05:08 BRT" finished-at="2020-01-21T16:05:21 BRT">
-      <class name="br.com.rsinet.hub.projetotdd.testes.SearchProductHomeInvalid">
-        <test-method status="PASS" signature="inicializa()[pri:0, instance:br.com.rsinet.hub.projetotdd.testes.SearchProductHomeInvalid@4d41cee]" name="inicializa" is-config="true" duration-ms="10602" started-at="2020-01-21T16:05:08 BRT" finished-at="2020-01-21T16:05:19 BRT">
+    <test name="Default test" duration-ms="25236" started-at="2020-01-21T16:10:00 BRT" finished-at="2020-01-21T16:10:26 BRT">
+      <class name="br.com.rsinet.hub.projetotdd.testes.SearchProductHome">
+        <test-method status="PASS" signature="inicializa()[pri:0, instance:br.com.rsinet.hub.projetotdd.testes.SearchProductHome@4d41cee]" name="inicializa" is-config="true" duration-ms="12015" started-at="2020-01-21T16:10:00 BRT" finished-at="2020-01-21T16:10:12 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicializa -->
-        <test-method status="PASS" signature="Execute()[pri:0, instance:br.com.rsinet.hub.projetotdd.testes.SearchProductHomeInvalid@4d41cee]" name="Execute" duration-ms="653" started-at="2020-01-21T16:05:19 BRT" finished-at="2020-01-21T16:05:19 BRT">
+        <test-method status="PASS" signature="Execute()[pri:0, instance:br.com.rsinet.hub.projetotdd.testes.SearchProductHome@4d41cee]" name="Execute" duration-ms="12343" started-at="2020-01-21T16:10:12 BRT" finished-at="2020-01-21T16:10:25 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Execute -->
-        <test-method status="PASS" signature="Finaliza()[pri:0, instance:br.com.rsinet.hub.projetotdd.testes.SearchProductHomeInvalid@4d41cee]" name="Finaliza" is-config="true" duration-ms="1114" started-at="2020-01-21T16:05:19 BRT" finished-at="2020-01-21T16:05:21 BRT">
+        <test-method status="PASS" signature="Finaliza()[pri:0, instance:br.com.rsinet.hub.projetotdd.testes.SearchProductHome@4d41cee]" name="Finaliza" is-config="true" duration-ms="835" started-at="2020-01-21T16:10:25 BRT" finished-at="2020-01-21T16:10:26 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Finaliza -->
-      </class> <!-- br.com.rsinet.hub.projetotdd.testes.SearchProductHomeInvalid -->
+      </class> <!-- br.com.rsinet.hub.projetotdd.testes.SearchProductHome -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

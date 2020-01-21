@@ -34,8 +34,6 @@ public class SearchProductHomeInvalid {
 		HomePage.btn_circle(driver).click();
 		HomePage.btn_explorenow(driver).click();
 		
-
-
 	}
 	
 	@BeforeMethod
