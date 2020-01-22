@@ -27,9 +27,23 @@ public class Product {
 		return element;
 	}
 	
-	public static WebElement btn_addcart(WebDriver driver) throws InterruptedException {
+	public static WebElement btn_addcart(WebDriver driver){
 		element = driver.findElement(By.name("save_to_cart"));
 		System.out.println("Adicionou no carrinho");
 		return element;
 	}
+	
+	public static WebElement btn_not(WebDriver driver) {
+		element = driver.findElement(By.id("details_10"));
+		System.out.println("Adicionou no carrinho");
+		return element;
+	}
+	
+	public static WebElement btn_popularitems(WebDriver driver) {
+		element = driver.findElement(By.linkText("POPULAR ITEMS"));
+		System.out.println("Adicionou no carrinho");
+		return element;
+	}
+	
+	
 }

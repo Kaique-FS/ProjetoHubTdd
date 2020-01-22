@@ -17,6 +17,7 @@ import br.com.rsinet.hub.projetotdd.actions.Product;
 import br.com.rsinet.hub.projetotdd.actions.SearchLupa;
 import br.com.rsinet.hub.projetotdd.pageobjects.HomePage;
 import br.com.rsinet.hub.projetotdd.pageobjects.LogInPage;
+import br.com.rsinet.hub.projetotdd.pageobjects.ShoppingCartPage;
 import br.com.rsinet.hub.projetotdd.utility.Constant;
 import br.com.rsinet.hub.projetotdd.utility.Driver;
 import br.com.rsinet.hub.projetotdd.utility.ScreenShot;
@@ -54,7 +55,9 @@ private static Logger Log = Logger.getLogger("Acao");
 		ScreenShot.ScreenShotCapture(driver);
 		Log.info("escolhe o produto indicado + adiciona ao carrinho + print");
 		
-		//Assert.assertEquals("HP Z3200 Wireless Mouse", Product.btn_mouse(driver));
+		ShoppingCartPage.btn_cart(driver).click();
+		
+		Assert.assertTrue(ShoppingCartPage.btn_cart(driver).isDisplayed());
 	}
 	
 	@AfterMethod

@@ -17,6 +17,7 @@ import br.com.rsinet.hub.projetotdd.actions.Product;
 import br.com.rsinet.hub.projetotdd.actions.Search;
 import br.com.rsinet.hub.projetotdd.pageobjects.HomePage;
 import br.com.rsinet.hub.projetotdd.pageobjects.LogInPage;
+import br.com.rsinet.hub.projetotdd.pageobjects.ShoppingCartPage;
 import br.com.rsinet.hub.projetotdd.utility.Constant;
 import br.com.rsinet.hub.projetotdd.utility.Driver;
 import br.com.rsinet.hub.projetotdd.utility.ScreenShot;
@@ -31,19 +32,6 @@ public class SearchProductHome {
 	public void Execute() throws Exception {
 		DOMConfigurator.configure("log4j.xml");
 		
-		HomePage.lnk_MyAccount(driver).click();
-		Log.info("Clicou no botão de login");
-		
-		LogInPage.txtbx_UserName(driver).sendKeys(Constant.Username);
-		Log.info("Inseriu usuario valido");
-		
-		LogInPage.txtbx_Password(driver).sendKeys(Constant.Password);
-		Log.info("Inseriu senha valida");
-
-		LogInPage.btn_LogIn(driver).sendKeys(Keys.ENTER);
-		Log.info("Realizou Login");
-
-		//home
 		Search.btn_Tablet(driver).click();
 		ScreenShot.ScreenShotCapture(driver);
 		Log.info("Clicou em 'Tablets' + print");
@@ -59,22 +47,10 @@ public class SearchProductHome {
 		Product.btn_addcart(driver).click();
 		ScreenShot.ScreenShotCapture(driver);
 		Log.info("adicionou ao carrinho + print");
-		
-		//lupa
-		Search.btn_LupaSearch(driver).click();
-		ScreenShot.ScreenShotCapture(driver);
-		Log.info("Clica na lupa + print");
 
-		Search.btn_Search(driver).sendKeys(Constant.Product + Keys.ENTER);
-		ScreenShot.ScreenShotCapture(driver);
-		Log.info("Escreve o produto + enter + print");
+		ShoppingCartPage.btn_cart(driver).click();
 		
-		Product.btn_mouse(driver).click();
-		Product.btn_addcart(driver).click();
-		ScreenShot.ScreenShotCapture(driver);
-		Log.info("escolhe o produto indicado + adiciona ao carrinho + print");
-
-		Assert.assertEquals("Tritao", HomePage.txt_username(driver).getText());
+		Assert.assertTrue(ShoppingCartPage.btn_cart(driver).isDisplayed());
 
 	}
 	
