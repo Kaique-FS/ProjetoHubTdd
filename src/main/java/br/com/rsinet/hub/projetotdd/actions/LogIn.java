@@ -1,6 +1,5 @@
 package br.com.rsinet.hub.projetotdd.actions;
 
-import org.junit.Before;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,10 +22,9 @@ private static WebDriver driver;
 	
 	@Test
 	public void Execute() {
-		HomePage.lnk_MyAccount(driver).click();
+		HomePage.btn_Login(driver).click();
 		LogInPage.txtbx_UserName(driver).sendKeys(Constant.Username);
 		LogInPage.txtbx_Password(driver).sendKeys(Constant.Password);
 		LogInPage.btn_LogIn(driver).sendKeys(Keys.ENTER);
-		//HomePage.lnk_LogOut(driver).click();
 	}
 }
