@@ -35,6 +35,9 @@ public class HomePage {
 	}
 	
 	public static WebElement btn_Pesquisa(WebDriver driver) throws InterruptedException  {
+		/*
+		 * Não foi possivel utilizar um wait "comum". 
+		 */
 		Thread.sleep(5000);
 		element = driver.findElement(By.id("menuSearch"));
 		System.out.println("clique em 'Pesquisa' ");
