@@ -371,3 +371,77 @@
 2020-01-24 12:51:35,949 INFO  [Acao] cor + print 
 2020-01-24 12:51:36,687 INFO  [Acao] adicionou ao carrinho + print 
 2020-01-24 12:51:37,351 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 13:39:31,912 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:00:05,888 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-02-03 14:00:06,625 INFO  [Acao] escolheu produto + print  
+2020-02-03 14:00:07,336 INFO  [Acao] cor + print 
+2020-02-03 14:00:07,752 INFO  [Acao] adicionou ao carrinho + print 
+2020-02-03 14:00:08,285 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:02:10,609 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:02:37,772 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:08:29,392 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:10:40,345 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:11:38,623 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:15:39,981 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:19:13,956 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:26:25,867 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:34:30,328 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-02-03 14:34:30,798 INFO  [Acao] escolheu produto + print  
+2020-02-03 14:34:31,219 INFO  [Acao] cor + print 
+2020-02-03 14:34:31,640 INFO  [Acao] adicionou ao carrinho + print 
+2020-02-03 14:34:32,196 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:35:29,546 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-02-03 14:35:30,026 INFO  [Acao] escolheu produto + print  
+2020-02-03 14:35:30,472 INFO  [Acao] cor + print 
+2020-02-03 14:35:30,898 INFO  [Acao] adicionou ao carrinho + print 
+2020-02-03 14:35:31,403 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:38:20,759 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-03 14:39:02,367 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:10:22,642 INFO  [Acao] Clica na lupa + print 
+2020-02-04 11:10:24,485 INFO  [Acao] Escreve o produto + enter + print 
+2020-02-04 11:10:29,042 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-02-04 11:10:30,129 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:11:22,226 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:20:26,199 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:21:18,411 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:22:12,084 INFO  [Acao] Clica na lupa + print 
+2020-02-04 11:22:13,728 INFO  [Acao] Escreve o produto + enter + print 
+2020-02-04 11:22:18,425 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-02-04 11:22:19,352 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:23:44,013 INFO  [Acao] Clica na lupa + print 
+2020-02-04 11:23:46,930 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:24:45,204 INFO  [Acao] Clica na lupa + print 
+2020-02-04 11:24:47,357 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:25:26,354 INFO  [Acao] Clica na lupa + print 
+2020-02-04 11:25:28,433 INFO  [Acao] Escreve o produto + enter + print 
+2020-02-04 11:25:29,016 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:43:28,408 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-02-04 11:43:29,370 INFO  [Acao] escolheu produto + print  
+2020-02-04 11:43:40,376 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:44:06,106 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-02-04 11:44:06,962 INFO  [Acao] escolheu produto + print  
+2020-02-04 11:44:17,878 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:45:14,450 INFO  [Acao] Clicou em 'Tablets' + print 
+2020-02-04 11:45:15,347 INFO  [Acao] escolheu produto + print  
+2020-02-04 11:45:26,165 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:46:01,516 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:46:27,388 INFO  [Acao] Clica na lupa + print 
+2020-02-04 11:46:29,058 INFO  [Acao] Escreve o produto + enter + print 
+2020-02-04 11:46:40,044 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:47:34,751 INFO  [Acao] Clica na lupa + print 
+2020-02-04 11:47:37,002 INFO  [Acao] Escreve o produto + enter + print 
+2020-02-04 11:47:48,279 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 11:49:52,165 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 12:00:07,090 INFO  [Acao] Clica na lupa + print 
+2020-02-04 12:00:08,058 INFO  [Acao] Escreve o produto + enter + print 
+2020-02-04 12:00:08,418 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 12:00:35,569 INFO  [Acao] Clica na lupa + print 
+2020-02-04 12:00:36,791 INFO  [Acao] Escreve o produto + enter + print 
+2020-02-04 12:00:51,319 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 12:02:07,256 INFO  [Acao] Clica na lupa + print 
+2020-02-04 12:02:09,800 INFO  [Acao] Escreve o produto + enter + print 
+2020-02-04 12:02:20,696 INFO  [Acao] Tirou print e fechou navegador 
+2020-02-04 12:03:50,204 INFO  [Acao] Clica na lupa + print 
+2020-02-04 12:03:51,733 INFO  [Acao] Escreve o produto + enter + print 
+2020-02-04 12:03:52,749 INFO  [Acao] escolhe o produto indicado + adiciona ao carrinho + print 
+2020-02-04 12:03:53,706 INFO  [Acao] Tirou print e fechou navegador 
